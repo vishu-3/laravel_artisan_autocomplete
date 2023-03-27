@@ -27,3 +27,6 @@ _completions_php_artisan()
 }
 alias phpartisan="php artisan"
 complete -F _completions_php_artisan phpartisan
+
+
+#credit goes to dangdungcntt from  https://code.nddcoder.com/v/re0e1x8n
