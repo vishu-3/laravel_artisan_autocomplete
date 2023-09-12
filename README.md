@@ -25,8 +25,8 @@ _completions_php_artisan()
   COMP_WORDBREAKS=${COMP_WORDBREAKS//:}
   COMPREPLY=($(compgen -W "$(cat command_list.txt)" "${COMP_WORDS[1]}"))
 }
-alias phpartisan="php artisan"
-complete -F _completions_php_artisan phpartisan
+alias phpart="php artisan"
+complete -F _completions_php_artisan phpart
 
 
 #credit goes to dangdungcntt from  https://code.nddcoder.com/v/re0e1x8n
